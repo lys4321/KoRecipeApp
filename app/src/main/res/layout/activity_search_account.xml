@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계 정 찾 기"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/bar_view_background"
+        android:textColor="@color/white">
+    </TextView>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/search_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minWidth="300dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:hint="찾으려는 유저의 이름"
+        android:gravity="center">
+    </EditText>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/search_pnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minWidth="300dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:hint="찾으려는 유저의 전화번호"
+        android:gravity="center">
+    </EditText>
+    <Button
+        android:id="@+id/searchB"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="찾기"
+        android:layout_gravity="center">
+    </Button>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/search_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minWidth="300dp"
+        android:layout_gravity="center"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/search_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minWidth="300dp"
+        android:layout_gravity="center"
+        android:textSize="30dp">
+    </TextView>
+</LinearLayout>
